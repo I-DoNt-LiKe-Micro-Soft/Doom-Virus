@@ -5,7 +5,7 @@ Introduction:
 Early in development this project is not complete.
 
 This is my project to create a virus written in only python that will completely destroy you(theoretically) any help/suggestions is appreciated.
-I already know my code is formatted teribbly, i am working on it and also i am trying to make my script very noob friendly !
+I already know my code is formatted teribbly, i am working on it and also i am trying to make my script very noob friendly. I will also have a obfuscated live exe for you too test on a virtual machine or to try and deobfuscate goodluck with that.
 
 ------------------
 features:
