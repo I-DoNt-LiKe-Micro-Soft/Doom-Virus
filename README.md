@@ -22,5 +22,6 @@ features:
 |Making it a windows excecutable|
 1) To make an exe you must use auto-py-to-exe https://pypi.org/project/auto-py-to-exe/
 2) On auto-py-to-exe you must enable the option under > Advanced > uac-admin this will correctly obtain administrator privilages.
+
 ![auto-py-to-exe_Usage](https://user-images.githubusercontent.com/111704953/194864233-b0e184c3-8814-4fe2-acdd-22132045a52f.png)
 ------------------
