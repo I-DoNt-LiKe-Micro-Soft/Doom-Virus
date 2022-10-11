@@ -28,6 +28,7 @@ Features i want to implement:
 4) Sensitive file enumeration and exfiltration.
 5) Dll injection.
 6) Crypto-mining functionalities if requested.
+7) A linux version.
 -----------------
 |Making it a windows excecutable|
 1) To make an exe you must use auto-py-to-exe https://pypi.org/project/auto-py-to-exe/
