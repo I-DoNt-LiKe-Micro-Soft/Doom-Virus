@@ -12,7 +12,7 @@ I already know my code is formatted teribbly, i am working on it and also i am t
 ------------------
 Features:
 1) My script uses Zero third-party modules, only built in python modules.
-2) So far Undetected by ONLY windows defender, my script instantly disables detection by excluding c: drive.
+2) This script instantly disables detection by excluding c: drive.
 3) Opens ports for ssh, reverse shell etc.
 4) Installs and configures ssh-server on the target machine.
 5) Creates a new user on the system for ssh.
@@ -29,6 +29,7 @@ Features i want to implement:
 5) Dll injection.
 6) Crypto-mining functionalities if requested.
 7) A linux version.
+8) Virtual machine detection
 -----------------
 |Making it a windows excecutable|
 1) To make an exe you must use auto-py-to-exe https://pypi.org/project/auto-py-to-exe/
