@@ -15,7 +15,7 @@ features:
 4) Installs and configures ssh-server on the target machine.
 5) Creates a new user on the system for ssh.
 6) Tries a reverse shell connection.
-7) Moves exe to temp folder, creates a ps1 reverse shell script in the tempfolder and adds it to startup with a batchscript.
+7) Moves exe to temp folder, creates a ps1 reverse shell script in the tempfolder and adds it taskscheduler.
 8) Hides the malware directory.
 9) Then deletes the exe from the system relying on the reverse shell startup script for persistence
 -----------------
