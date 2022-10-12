@@ -20,17 +20,17 @@ Features:
 7) Moves exe to temp folder, creates a ps1 reverse shell script in the tempfolder and adds it taskscheduler.
 8) Hides the malware directory.
 9) Then deletes the exe from the system relying on the reverse shell startup script for persistence
-10) Undetected by only windows-defender when reverse shell is removed i need to find another way like make a python rat. 
+10) Undetected by only windows-defender when reverse shell is removed i need to find another way, like make a python rat.
+11) USB Dropper has been implemented.
 -----------------
 Features i want to implement:
-1) Usb Dropper.
-2) Everybrand of Anti-virus needs to be bypassed.
-3) C2 Server connection.
-4) Sensitive file enumeration and exfiltration.
-5) Dll injection.
-6) Crypto-mining functionalities if requested.
-7) A linux version.
-8) Virtual machine detection
+1) Everybrand of Anti-virus needs to be bypassed.
+2) C2 Server connection.
+3) Sensitive file enumeration and exfiltration.
+4) Dll injection.
+5) Crypto-mining functionalities if requested.
+6) A linux version.
+7) Virtual machine detection
 -----------------
 |Making it a windows excecutable|
 1) To make an exe you must use auto-py-to-exe https://pypi.org/project/auto-py-to-exe/
