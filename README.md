@@ -20,7 +20,7 @@ Features:
 7) Moves exe to temp folder, creates a ps1 reverse shell script in the tempfolder and adds it taskscheduler.
 8) Hides the malware directory.
 9) Then deletes the exe from the system relying on the reverse shell startup script for persistence
-10) Undetected by only windows-defender when reverse shell is removed i need to find another way, like make a python rat.
+10) Undetected by only windows-defender when reverse shell is removed i need to find another way, like making a python rat.
 11) USB Dropper has been implemented.
 -----------------
 Features i want to implement:
