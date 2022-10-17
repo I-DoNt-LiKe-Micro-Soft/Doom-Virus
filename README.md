@@ -21,6 +21,7 @@ Features:
 8) Hides the malware directory.
 9) Undetected by only windows-defender when reverse shell is removed i need to find another way, like making a python rat.
 10) USB Dropper has been implemented.
+11) Doom remover functional, it will reverse all changes and kill doom :(
 -----------------
 Features i want to implement:
 1) Everybrand of Anti-virus needs to be bypassed.
