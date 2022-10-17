@@ -32,6 +32,7 @@ Features i want to implement:
 7) Virtual machine detection
 8) I want my script to be able to spread over local area network.
 9) Im struggling to make the exe delete itself, i had it working at one point.
+10) Remote Access Tool.
 -----------------
 |Making it a windows excecutable|
 1) To make an exe you must use auto-py-to-exe https://pypi.org/project/auto-py-to-exe/
