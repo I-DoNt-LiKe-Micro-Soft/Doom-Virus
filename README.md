@@ -31,6 +31,7 @@ Features i want to implement:
 5) Crypto-mining functionalities if requested.
 6) A linux version.
 7) Virtual machine detection
+8) I want my script to be able to spread over local area network.
 -----------------
 |Making it a windows excecutable|
 1) To make an exe you must use auto-py-to-exe https://pypi.org/project/auto-py-to-exe/
