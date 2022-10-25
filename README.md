@@ -37,6 +37,7 @@ Features i want to implement:
 9) Im struggling to make the exe delete itself, i had it working at one point.
 10) Remote Access Tool.
 11) I want to implement capabilities to spread over ssh. 
+12) Windows 11 Compatibility.
 -----------------
 |Making it a windows excecutable|
 1) To make an exe you must use auto-py-to-exe https://pypi.org/project/auto-py-to-exe/
