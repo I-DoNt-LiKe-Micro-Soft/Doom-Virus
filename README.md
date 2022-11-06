@@ -21,12 +21,10 @@ Features:
 3) Opens ports for ssh, reverse shell etc.
 4) Installs and configures ssh-server on the target machine.
 5) Creates a new user on the system for ssh.
-6) Tries a reverse shell connection.
-7) Moves exe to temp folder, creates a ps1 reverse shell script in the tempfolder and adds it taskscheduler.
-8) Hides the malware directory.
-9) Undetected by only windows-defender when reverse shell is removed i need to find another way, like making a python rat.
-10) USB Dropper has been implemented.
-11) Doom remover, reverses all changes and removes the virus.
+6) Moves exe to temp folder, creates a ps1 reverse shell script in the tempfolder and adds it taskscheduler.
+7) Hides the malware directory.
+8) USB Dropper has been implemented.
+9) Doom remover, reverses all changes and removes the virus.
 -----------------
 Features i want to implement:
 1) Everybrand of Anti-virus needs to be bypassed.
@@ -34,13 +32,12 @@ Features i want to implement:
 3) Sensitive file enumeration and exfiltration.
 4) Dll injection.
 5) Crypto-mining functionalities if requested.
-6) A linux version.
-7) Virtual machine detection
-8) I want my script to be able to spread over local area network.
-9) Im struggling to make the exe delete itself, i had it working at one point.
-10) Remote Access Tool.
-11) I want to implement capabilities to spread over ssh. 
-12) Windows 11 Compatibility.
+6) Virtual machine detection
+7) I want my script to be able to spread over local area network.
+8) Im struggling to make the exe delete itself, i had it working at one point.
+9) Remote Access Tool/Undetected reverse shell
+10) I want to implement capabilities to spread over ssh. 
+11) Windows 11 Compatibility.
 -----------------
 |Making it a windows excecutable|
 1) To make an exe you must use auto-py-to-exe https://pypi.org/project/auto-py-to-exe/
