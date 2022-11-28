@@ -1,7 +1,6 @@
 # 💉🦠D00M🦠💉
----
+
 ![image](https://user-images.githubusercontent.com/111704953/196786416-e86867c4-e438-465e-9fce-a973faa51832.png)
----
 
 ## Introduction:
 
