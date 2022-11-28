@@ -1,11 +1,7 @@
 # 💉🦠D00M🦠💉
-## Introduction:
-### Features:
-#### Features i want to implement:
-##### |Making it a windows excecutable|
 ------------------
 ![image](https://user-images.githubusercontent.com/111704953/196786416-e86867c4-e438-465e-9fce-a973faa51832.png)
-------------------
+-
 
 ## Introduction:
 
@@ -17,7 +13,7 @@ This is my project to create a virus written in only python that will completely
 I already know my code is formatted teribbly, i am working on it and also i am trying to make my script very noob friendly. I will also have a obfuscated live exe for you too test on a virtual machine or to try and deobfuscate goodluck with that.
 
 ------------------
-Features:
+## Features:
 - My script uses Zero third-party modules, only built in python modules.
 - This script instantly disables detection by excluding c: drive.
 - Opens ports for ssh, reverse shell etc.
@@ -28,7 +24,7 @@ Features:
 - USB Dropper has been implemented.
 - Doom remover, reverses all changes and removes the virus.
 -----------------
-#### Features i want to implement:
+## Features i want to implement:
 - Everybrand of Anti-virus needs to be bypassed.
 - C2 Server connection.
 - Sensitive file enumeration and exfiltration.
@@ -41,7 +37,7 @@ Features:
 - I want to implement capabilities to spread over ssh. 
 - Windows 11 Compatibility.
 -----------------
-##### |Making it a windows excecutable|
+## |Making it a windows excecutable|
 - To make an exe you must use auto-py-to-exe https://pypi.org/project/auto-py-to-exe/
 -On auto-py-to-exe you must enable the option under > Advanced > uac-admin this will correctly obtain administrator privilages.
 
