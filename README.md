@@ -38,6 +38,7 @@ This is my project to create a virus written in only python that will completely
 - Keylogger
 ---
 ## |Making it a windows excecutable:|
+- The python file must be compiled into an exe if you want it to work as intended due to python not being able to aquire sufficient permissions.
 - To make an exe you must use auto-py-to-exe https://pypi.org/project/auto-py-to-exe/
 -On auto-py-to-exe you must enable the option under > Advanced > uac-admin this will correctly obtain administrator privilages.
 
