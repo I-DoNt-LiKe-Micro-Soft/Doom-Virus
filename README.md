@@ -4,7 +4,7 @@
 
 ## |Introduction:|
 
-EDUCATIONAL USE ONLY !
+EDUCATIONAL USE ONLY AND I AM NOT RESPONSIBLE FOR ANY DAMAGES OR MISUSE OF THIS SOFTWARE !
 
 Early in development this project is not complete or released !
 
