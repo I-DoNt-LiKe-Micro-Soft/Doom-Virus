@@ -2,6 +2,8 @@
 
 ![DOOM_LOGO](https://user-images.githubusercontent.com/111704953/196786416-e86867c4-e438-465e-9fce-a973faa51832.png)
 
+![Virus_Total_Analysis](https://user-images.githubusercontent.com/111704953/204491802-c29d2e4f-4aa2-4045-bc89-63db016df872.png)
+
 ## |Introduction:|
 
 EDUCATIONAL USE ONLY !
