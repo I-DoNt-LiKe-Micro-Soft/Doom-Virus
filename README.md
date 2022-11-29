@@ -19,7 +19,7 @@ This is my project to create a virus written in only python that will completely
 - Creates a new user on the system for ssh.
 - Moves exe and important files to temp folder.
 - Hides the malware directory via the windows hide file attribute.
-- USB Dropper has been implemented.
+- USB Dropper has been implemented but needs improvement to exclude current working drive.
 - Doom remover, reverses all changes and removes the virus.
 ---
 ## |Features i want to implement:|
