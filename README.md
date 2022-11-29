@@ -45,6 +45,7 @@ This is my project to create a virus written in only python that will completely
 -On auto-py-to-exe you must enable the option under > Advanced > uac-admin this will correctly obtain administrator privilages.
  ```
 pip install auto-py-to-exe
+```
 auto-py-to-exe
  ```
 ![auto-py-to-exe_Usage](https://user-images.githubusercontent.com/111704953/194864233-b0e184c3-8814-4fe2-acdd-22132045a52f.png)
