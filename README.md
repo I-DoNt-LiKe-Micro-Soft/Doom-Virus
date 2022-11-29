@@ -1,14 +1,12 @@
 # 💉🦠DOOM🦠💉
 
-![-Cacodemon-](https://user-images.githubusercontent.com/111704953/204493113-57bec89e-12c1-4200-a9d3-3e70ff00a2b8.png)
-
 ![Virus_Total_Analysis](https://user-images.githubusercontent.com/111704953/204491802-c29d2e4f-4aa2-4045-bc89-63db016df872.png)
 
 ## |Introduction:|
 
 EDUCATIONAL USE ONLY !
 
-Early in development this project is not complete !
+Early in development this project is not complete or released !
 
 This is my project to create a virus written in only python that will completely destroy you(theoretically) any help/suggestions is appreciated. It is hard to make an effective and undetectable python virus due to the lack of memory and cpu control i recommend c++ for ethical computer viruses. I am trying to make my script very noob friendly. I will also have a obfuscated live exe for you too test on a virtual machine or to try and deobfuscate goodluck with that.
 
