@@ -48,4 +48,7 @@ pip install auto-py-to-exe
 ```
 auto-py-to-exe
  ```
+ ```
+ pyinstaller --noconfirm --onefile --windowed --uac-admin  "C:/path_to_your_python_file.py"
+ ```
 ![auto-py-to-exe_Usage](https://user-images.githubusercontent.com/111704953/194864233-b0e184c3-8814-4fe2-acdd-22132045a52f.png)
