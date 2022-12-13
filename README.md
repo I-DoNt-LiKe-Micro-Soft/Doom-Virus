@@ -46,9 +46,11 @@ This is my project to create a virus written in only python that will completely
  ```
 pip install auto-py-to-exe
 ```
+You can create the executable via the graphic user interface
 ```
 auto-py-to-exe
  ```
+ or via the commandline refer to auto-py-to-exe documentation for more information https://pypi.org/project/auto-py-to-exe/
  ```
  pyinstaller --noconfirm --onefile --windowed --uac-admin  "C:/path_to_your_python_file.py"
  ```
