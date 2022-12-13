@@ -24,6 +24,7 @@ This is my project to create a virus written in only python that will completely
 - Doom remover, reverses all changes and removes the virus.
 ---
 ## |Features i want to implement:|
+- I want my script to create a txt file with data regarding time of infection and other user details.
 - Big changes coming soon to decrease detection rate, this may include Doom dropping powershell scripts, wish me luck.
 - I removed the reverse shell as it increases detection rate by 100%.
 - Everybrand of Anti-virus needs to be bypassed.
