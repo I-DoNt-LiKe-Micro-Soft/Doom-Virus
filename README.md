@@ -24,18 +24,19 @@ This is my project to create a virus written in only python that will completely
 - Doom remover, reverses all changes and removes the virus.
 ---
 ## |Features i want to implement:|
+- Big changes coming soon to decrease detection rate, this may include Doom dropping powershell scripts, wish me luck.
 - I removed the reverse shell as it increases detection rate by 100%.
 - Everybrand of Anti-virus needs to be bypassed.
-- C2 Server connection.
+- Command and control Server connection.
 - Sensitive file enumeration and exfiltration.
 - Crypto-mining functionalities if requested.
-- Virtual machine detection
+- Virtual machine detection and evasion.
 - I want my script to be able to spread over local area network.
 - Im struggling to make the exe delete itself, i had it working at one point.
 - Remote Access Tool/Undetected reverse shell
 - I want to implement capabilities to spread over ssh. 
 - Windows 11 Compatibility.
-- Screen logging/screen recording funtionality
+- Screen Logging functionality coming very soon.
 - Keylogger
 ---
 ## |Making it a windows excecutable:|
