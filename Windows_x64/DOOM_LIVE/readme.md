@@ -1,10 +1,10 @@
 DOOM
-
-1) This is a live virus !
-2) Extremely obfuscated !
-3) If you can deobfuscate this get a job at nasa !
-4) Not intended for use on someone unexpecting without explicit permission !
-5) Ethical use only
-6) Have Fun !!!!!!!!!!!!!!!!!
+- The exe may be an older version than the python file inside the Source_Code directory, i strongly advise compiling it yourself and changing the variables to suit your needs.
+- This is a live virus !
+- Extremely obfuscated !
+- If you can deobfuscate this get a job at nasa !
+- Not intended for use on someone unexpecting without explicit permission !
+- Ethical use only
+- Have Fun !!!!!!!!!!!!!!!!!
 
 *Please_Report_Erros_On_The_Github*
