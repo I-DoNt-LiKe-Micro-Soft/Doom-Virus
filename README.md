@@ -23,6 +23,7 @@ This is my project to create a virus written in only python that will completely
 - Hides the malware directory via the windows hide file attribute.
 - USB Dropper has been implemented but needs improvement to exclude current working drive.
 - Doom remover, reverses all changes and removes the virus.
+- My script hides the new created user system wide.
 ---
 ## |Features i want to implement:|
 - I want my script to create a txt file with data regarding time of infection and other user details.
