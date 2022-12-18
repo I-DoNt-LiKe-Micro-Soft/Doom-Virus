@@ -1,5 +1,6 @@
 # 💉🦠DOOM🦠💉
 
+API /repos/:owner/:repo/traffic/clones
 
 ![Virus-Total_Analysis](https://user-images.githubusercontent.com/111704953/208242700-d3b28acd-fc52-46cc-892c-ea80d8b66811.png)
 
