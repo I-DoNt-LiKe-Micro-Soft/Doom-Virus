@@ -8,9 +8,7 @@
 
 EDUCATIONAL USE ONLY AND I AM NOT RESPONSIBLE FOR ANY DAMAGES OR MISUSE OF THIS SOFTWARE !
 
-Early in development this project is not complete or released !
-
-This is my project to create a virus written in only python that will completely destroy you(theoretically) any help/suggestions is appreciated. It is hard to make an effective and undetectable python virus due to the lack of memory and cpu control i recommend c++ for ethical computer viruses. I am trying to make my script very noob friendly. I will also have a obfuscated live exe for you too test on a virtual machine or to try and deobfuscate goodluck with that.
+This project is early in development.
 
 ---
 ## |Features:|
