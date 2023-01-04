@@ -1,8 +1,6 @@
 # 💉🦠DOOM🦠💉
 
-
-![virus_total_analysis](https://user-images.githubusercontent.com/111704953/210521079-59d4aefa-6b5a-4df5-856d-49d780fefcc8.png)
-
+![Virus_Total_Analysis](https://user-images.githubusercontent.com/111704953/210577111-883e38da-55b1-4c14-be8d-dcd1c4bd1c5a.png)
 
 ## |Introduction:|
 
