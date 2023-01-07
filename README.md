@@ -4,9 +4,12 @@
 
 ## |Introduction:|
 
-EDUCATIONAL USE ONLY AND I AM NOT RESPONSIBLE FOR ANY DAMAGES OR MISUSE OF THIS SOFTWARE !
-This file requires administrative privilages.
-This project is early in development.
+- EDUCATIONAL USE ONLY, THIS FILE MUST NOT BE USED FOR MALICIOUS PURPOSES OR EXECUTED ON SOMEONES COMPUTER WITHOUT THEIR CONSENT !
+- ONLY EXECUTE THIS FILE IN A VIRTUAL MACHINE !
+- I AM NOT RESPONSIBLE FOR ANY DAMAGES OR MISUSE OF THIS SOFTWARE !
+- THIS FILE REQUIRES ADMINISTRATIVE PRIVILAGES !
+- THIS PROJECT IS EARLY IN DEVELOPMENT !
+- THE LIVE EXECUTABLE IS COMPRESSED AND ENCRYPTED BY 7zip WITH A PASSWORD OF 1111  
 
 ---
 ## |Features:|
@@ -23,15 +26,13 @@ This project is early in development.
 ---
 ## |Features i want to implement:|
 - I want my script to create a txt file with data regarding time of infection and other user details.
-- Big changes coming soon to decrease detection rate, this may include Doom dropping powershell scripts, wish me luck.
-- I removed the reverse shell as it increases detection rate by 100%.
 - Everybrand of Anti-virus needs to be bypassed.
 - Command and control Server connection.
 - Virtual machine detection and evasion.
 - Remote Access Tool/Undetected reverse shell
 - Windows 11 Compatibility.
-- Screen Logging functionality coming very soon.
-- Keylogger
+- Event logging functionality coming very soon.
+- Keylogger.
 ---
 ## |Making it a windows excecutable:|
 - The python file must be compiled into an exe if you want it to work as intended due to python not being able to aquire sufficient permissions.
