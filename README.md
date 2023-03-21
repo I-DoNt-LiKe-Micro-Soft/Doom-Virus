@@ -24,7 +24,7 @@
 - USB Dropper has been implemented but needs improvement to exclude current working drive.
 - Doom remover, reverses all changes and removes the virus.
 - My script hides the new created user system wide.
-- My script creates a txt document regarding time of execution and other system information.
+- My script creates a txt document regarding time of execution and other system information located in %TEMP%\.0193\Log.txt.
 ---
 ## |Features i want to implement:|
 - Everybrand of Anti-virus needs to be bypassed.
