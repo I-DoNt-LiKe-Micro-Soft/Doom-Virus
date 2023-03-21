@@ -14,25 +14,22 @@
 
 ---
 ## |Features:|
+- My script tries to evade anaylysis and debugging.
 - My script uses Zero third-party modules, only built in python modules.
 - This script instantly disables detection by excluding c: drive.
-- Opens ports for ssh, reverse shell etc.
 - Installs and configures ssh-server on the target machine.
-- Creates a new user on the system for ssh.
-- Moves exe and important files to temp folder.
-- Hides the malware directory via the windows hide file attribute.
-- USB Dropper has been implemented but needs improvement to exclude current working drive.
-- Doom remover, reverses all changes and removes the virus.
-- My script hides the new created user system wide.
+- Creates a new local administrator on the machine and hides it by changing the value of a UserList key.
+- My script creates a hidden directory under %TEMP%\.0193 thats is where my executable deploys its resources.
+- An amazing usb dropper has been implemented. The UsbDropper function copies the executable to all connected drives excluding the operating system drives.
 - My script creates a txt document regarding time of execution and other system information located in %TEMP%\.0193\Log.txt.
 ---
 ## |Features i want to implement:|
 - Everybrand of Anti-virus needs to be bypassed.
 - Command and control Server connection.
-- Remote Access Tool/Undetected reverse shell
+- Remote Access Tool/Undetected reverse shell.
 - Windows 11 Compatibility.
 - Event logging functionality coming very soon.
-- Keylogger.
+- Undetected keylogging functionality super close to adoption.
 - Screen shotting feature coming very soon.
 ---
 ## |Making it a windows excecutable:|
