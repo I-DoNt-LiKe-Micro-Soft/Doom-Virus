@@ -24,16 +24,16 @@
 - USB Dropper has been implemented but needs improvement to exclude current working drive.
 - Doom remover, reverses all changes and removes the virus.
 - My script hides the new created user system wide.
+- My script creates a txt document regarding time of execution and other system information.
 ---
 ## |Features i want to implement:|
-- I want my script to create a txt file with data regarding time of infection and other user details.
 - Everybrand of Anti-virus needs to be bypassed.
 - Command and control Server connection.
-- Virtual machine detection and evasion.
 - Remote Access Tool/Undetected reverse shell
 - Windows 11 Compatibility.
 - Event logging functionality coming very soon.
 - Keylogger.
+- Screen shotting feature coming very soon.
 ---
 ## |Making it a windows excecutable:|
 - The python file must be compiled into an exe if you want it to work as intended due to python not being able to aquire sufficient permissions.
