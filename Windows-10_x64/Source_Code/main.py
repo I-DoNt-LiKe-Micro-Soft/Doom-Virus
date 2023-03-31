@@ -1,3 +1,6 @@
+#-Creator: I-DoNt-LiKe-Micro-Soft
+#-Github: https://github.com/I-DoNt-LiKe-Micro-Soft
+#-Python(3.11)
 from os import name
 from sys import exit
 from re import search
