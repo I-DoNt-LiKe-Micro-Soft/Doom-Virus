@@ -184,34 +184,3 @@ ClearingEventViewer()
 
 
 windll.user32.MessageBoxW(0, "Installation complete", "Success", 0x40)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
