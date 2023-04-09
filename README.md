@@ -21,7 +21,7 @@
 - Creates a new local administrator on the machine and hides it by changing the value of a UserList key.
 - My script creates a hidden directory under %TEMP%\.0193 thats is where my executable deploys its resources.
 - An amazing usb dropper has been implemented. The UsbDropper function copies the executable to all connected drives excluding the operating system drives.
-- My script creates a txt document regarding time of execution and other system information located in %TEMP%\.0193\Log.txt.
+- My script creates a txt document regarding time of execution and other system information located in %TEMP%\\.0193\Log.txt.
 ---
 ## |Features i want to implement:|
 - Everybrand of Anti-virus needs to be bypassed.
