@@ -82,7 +82,7 @@ def Logging():
     HOSTNAMESTRING = HOSTNAME
     with open(environ['temp']+"\\.0193\\Log.txt", "w") as LogFile:
         LogFile.write("Date of execution(GMT): "+strftime("%a, %d %b %Y %H:%M:%S +0000", gmtime())+"\n")
-        LogFile.write("Hostname: "+HOSTNAMESTRING+"\n")
+        LogFile.write("Hostname: "+HOSTNAMESTRING+"\n"))
         LogFile.write("Username: "+environ['username']+"\n")
         LogFile.write("Architecture: "+architecture()[0]+"\n")
         LogFile.write("Processor: "+processor()+"\n")
