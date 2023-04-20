@@ -14,23 +14,21 @@
 
 ---
 ## |Features:|
-- My script tries to evade anaylysis and debugging.
-- My script uses Zero third-party modules, only built in python modules.
-- This script instantly disables detection by excluding c: drive.
+- The scripts resource folder is "%TEMP%\.0193" post execution.
+- My script creates a txt document regarding time of execution and other system information located in "%TEMP%\\.0193\Log.txt".
+- The script uses basic evasion tactics.
+- It uses Zero third-party modules, only built in python modules.
+- Instantly disables detection by excluding c: drive.
 - Installs and configures ssh-server on the target machine.
-- Creates a new local administrator on the machine and hides it by changing the value of a UserList key.
-- My script creates a hidden directory under %TEMP%\.0193 thats is where my executable deploys its resources.
+- Creates a new local administrator on the machine and hides it by changing the value of a UserList registry key.
 - An amazing usb dropper has been implemented. The UsbDropper function copies the executable to all connected drives excluding the operating system drives.
-- My script creates a txt document regarding time of execution and other system information located in %TEMP%\\.0193\Log.txt.
 ---
 ## |Features i want to implement:|
-- Everybrand of Anti-virus needs to be bypassed.
-- Command and control Server connection.
-- Remote Access Tool/Undetected reverse shell.
+- Everybrand of anti-virus needs to be bypassed.
+- Command and control server connection.
+- Remote Access Tool or undetected reverse shell.
 - Windows 11 Compatibility.
-- Event logging functionality coming very soon.
-- Undetected keylogging functionality super close to adoption.
-- Screen shotting feature coming very soon.
+- Screen shotting feature coming very soon. I need help trying to fine tune the screenshotter im not good at powershell.
 ---
 ## |Making it a windows executable:|
 - The python file must be compiled into an exe if you want it to work as intended due to python not being able to aquire sufficient permissions.
