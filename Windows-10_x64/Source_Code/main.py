@@ -55,6 +55,7 @@ class AntiAnalysis:
         #if release() != "10": windll.user32.MessageBoxW(0, "This application is only avaliable for windows-10 operating systems.", "Error",0x10), exit(1)
         match release():
             case "11":
+                windll.user32.MessageBoxW(0, "This application is only avaliable for windows-10 operating systems.", "Error",0x10), exit(1)
                 exit(1)
                 
     def VirtualMachineCheck(self):
