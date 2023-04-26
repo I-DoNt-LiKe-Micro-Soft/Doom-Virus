@@ -9,12 +9,12 @@ $bounds   = [Drawing.Rectangle]::FromLTRB($left, $top, $width, $height)
 $bmp      = New-Object System.Drawing.Bitmap ([int]$bounds.width), ([int]$bounds.height)
 $graphics = [Drawing.Graphics]::FromImage($bmp)
 $graphics.CopyFromScreen($bounds.Location, [Drawing.Point]::Empty, $bounds.size)
-$Path = "$pwd\"
+#$Path = "$pwd\"
 while($True){
     $Count = 0
     while($True){
         $Count++
-        $bmp.Save("${Path}${Count}.png")
+        $bmp.Save("${Count}.png")
         if($Count -eq 1000){break;}
     }
     Remove-Item *.png
