@@ -1,4 +1,5 @@
 #WARNING: Issues detected with network drives!
+#I would like to increase the artificial intelligence of the screenshotter.
 Add-Type -AssemblyName System.Windows.Forms,System.Drawing
 $screens = [Windows.Forms.Screen]::AllScreens
 $top    = ($screens.Bounds.Top    | Measure-Object -Minimum).Minimum
