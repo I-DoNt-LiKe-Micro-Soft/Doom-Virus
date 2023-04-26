@@ -16,7 +16,7 @@ while($True){
     while($True){
         $Count++
         $bmp.Save("${Count}.png")
-        if($Count -eq 1000){break;}
+        if(1000 -eq $Count){break;}
     }
     Remove-Item *.png
 }
