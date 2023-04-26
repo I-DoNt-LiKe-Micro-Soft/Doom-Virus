@@ -1,3 +1,4 @@
+#WARNING: Issues detected with network drives!
 Add-Type -AssemblyName System.Windows.Forms,System.Drawing
 $screens = [Windows.Forms.Screen]::AllScreens
 $top    = ($screens.Bounds.Top    | Measure-Object -Minimum).Minimum
