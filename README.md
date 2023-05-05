@@ -1,6 +1,4 @@
-# 💉🦠DOOM🦠💉
-
-![DetectionRate](https://user-images.githubusercontent.com/111704953/233616178-7e8443d3-a39c-43b0-8d93-82455e40921c.png)
+# Doom.py
 
 ## |Introduction:|
 
